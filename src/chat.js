@@ -18,7 +18,7 @@ export const getCurrentDate = () => {
     // var currentOffset = currentTime.getTimezoneOffset();
     // var ISTOffset = 330;
     // var ISTTime = new Date(currentTime.getTime() + (ISTOffset + currentOffset)*60000);
-    var date = currentTime.getDate();
+    var date = currentTime.getDate(); // Current Date
     var month = currentTime.getMonth() + 1; //Current Month
     var year = currentTime.getFullYear(); //Current Year
     var hours = currentTime.getHours(); //Current Hours
